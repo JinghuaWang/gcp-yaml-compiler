@@ -13,7 +13,7 @@ import (
 
 func main() {
 	// Default file to replace env vars
-	pathFile := "./app.yaml"
+	pathFile := "./backend/app.yaml"
 	// Check if there is a new file path to replace env vars
 	if pf := os.Getenv("INPUT_FILE"); pf != "" {
 		pathFile = pf
